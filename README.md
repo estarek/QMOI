@@ -1,8 +1,19 @@
-# QMOI
-OCR for QMOI
+# File Type Detector 🔍
 
-# To install the requirements :
-pip install -r requirements.txt
+A Streamlit app that detects file types based on magic bytes, ignoring extensions.
 
-# To run the code :
-streamlit run app.py
+## Features
+- Detects images (JPEG, PNG, GIF, etc.)
+- Identifies documents (PDF, DOCX, XLSX, etc.)
+- Works even if the file has no extension
+
+## How to Run
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+   
+2. Run the app:
+
+   ```bash
+    streamlit run app.py
