@@ -1,6 +1,6 @@
 # Core requirements
 streamlit==1.32.2
-Pillow==10.1.0  # For image processing
+Pillow>=10.2.0  # Newer version with Python 3.13 support
 
 # Development requirements (included for completeness)
 typing-extensions==4.9.0  # For typing support (usually comes with Python 3.8+)
