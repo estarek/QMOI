@@ -6,8 +6,8 @@ Pillow==10.1.0  # For image processing
 typing-extensions==4.9.0  # For typing support (usually comes with Python 3.8+)
 
 # Optional (for potential future enhancements)
-# python-magic==0.4.27  # More robust file type detection
-#filetype==1.2.0  # Alternative file type detection
-#pymupdf==1.23.21  # For PDF processing
-#python-docx==0.8.11  # For Word document processing
-#openpyxl==3.1.2  # For Excel file processing
+python-magic==0.4.27  # More robust file type detection
+filetype==1.2.0  # Alternative file type detection
+pymupdf==1.23.21  # For PDF processing
+python-docx==0.8.11  # For Word document processing
+openpyxl==3.1.2  # For Excel file processing
